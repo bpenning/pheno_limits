@@ -15,11 +15,15 @@ parser.add_argument('-b','--batchmode',default=False)
 args=parser.parse_args()
 
 
-bkg_yield=62.9926
+#bkg_yield=28.84 #mhs50
+bkg_yield=48.27 #mhs70
+#bkg_yield=60.29 #mhs90
 sig_yield=args.sig_yield_19_2fb
-bkg_stat=0.099
-bkg_syst=0.068
-sig_syst=0.114
+#bkg_stat=0.07 #mhs50
+bkg_stat=0.06 #mh70
+#bkg_stat=0.05 #mh90
+bkg_syst=0.1
+sig_syst=0.15
 
 
 #systlumiscale=args.systlumiscale
